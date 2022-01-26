@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: skyblue;
+}
+nav > ul {
+  list-style: none;
+}
+ul > li {
+  display: inline;
+  margin-left: 20px;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
