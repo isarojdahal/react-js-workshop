@@ -1,0 +1,25 @@
+.add-confession-post {
+  height: 270px;
+  width: 60%;
+  border: 1px solid blue;
+  margin-top: 70px;
+  border-radius: 12px;
+}
+
+.add-confession-post > textarea {
+  margin-top: 30px;
+  font-size: 18px;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.confess-btn {
+  background-color: #1f448d;
+  color: white;
+  padding: 15px;
+  border: none;
+  width: 130px;
+  border-radius: 12px;
+  cursor: pointer;
+}
