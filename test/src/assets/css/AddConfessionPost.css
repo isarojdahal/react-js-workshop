@@ -1,0 +1,26 @@
+.confession-post-div {
+  height: 300px;
+  width: 50%;
+  border: 1px solid blue;
+  border-radius: 12px;
+  margin-top: 40px;
+}
+
+textarea.confession-post-field {
+  margin-top: 12px;
+  resize: none;
+  border: none;
+  padding: 12px;
+  outline: none;
+  font-size: 18px;
+}
+
+.confess-button {
+  color: #fff;
+  background-color: #1f448d;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 140px;
+}
