@@ -3,6 +3,7 @@ import "../assets/css/ConfessionList.css";
 import { database, set, ref, onValue } from "../config/firebase";
 import Moment from "react-moment";
 import { ShimmerSimpleGallery } from "react-shimmer-effects";
+import { deleteData } from "../utils/database";
 
 const ConfessionList = () => {
   const [confessionList, setConfessionList] = useState([]);
@@ -23,6 +24,7 @@ const ConfessionList = () => {
     "Dec",
   ];
   useEffect(() => {
+    deleteData();
     onValue(ref(database, "confessions"), (snapshot) => {
       let _data = snapshot.val();
       let _confessionList = [];

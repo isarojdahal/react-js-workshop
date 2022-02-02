@@ -4,7 +4,7 @@ import ConfessionList from "../components/ConfessionList";
 import useTitle from "../hooks/useTitle";
 
 const Homepage = () => {
-  useTitle("Homepage | Confess Note");
+  useTitle("Homepage | Confess Note App");
   return (
     <div>
       <AddConfessionPost />
